@@ -37,15 +37,15 @@ What kind of applications do we use usually?
 ++++++++++++++++++++++++++++++++++++++++++++
 
 * Text Editors
- * Vim/Emacs
+  * Vim/Emacs
 * Mail
- * Mutt, Alpine
+  * Mutt, Alpine
 * code review
- * gertty
+  * gertty
 * presentation
- * presentty
+  * presentty
 * Blog
- * pelican
+  * pelican
 
 Conclusion
 ++++++++++
@@ -54,11 +54,11 @@ Appendix
 ++++++++
 
 * Web browser
- * Lynx, w3m, curl, wget
+  * Lynx, w3m, curl, wget
 * bug management
- * boartty
+  * boartty
 * IoT
- * mqtty
+  * mqtty
 * Games
- * ....? :-p
+  * ....? :-p
 
