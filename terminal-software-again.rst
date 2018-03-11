@@ -38,12 +38,16 @@ What kind of applications do we use usually?
 
 * Text Editors
   * Vim/Emacs
+
 * Mail
   * Mutt, Alpine
+
 * code review
   * gertty
+
 * presentation
   * presentty
+
 * Blog
   * pelican
 
@@ -55,10 +59,13 @@ Appendix
 
 * Web browser
   * Lynx, w3m, curl, wget
+
 * bug management
   * boartty
+
 * IoT
   * mqtty
+
 * Games
   * ....? :-p
 
