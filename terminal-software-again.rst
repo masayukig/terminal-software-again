@@ -1,66 +1,125 @@
-Terminal CUI/CLI Software Again
-===============================
+FOSSAsia Summit 2018
+====================
 
-Most of the people really like webUI and/or smartphone UI. We think
-they are really fancy and cool. However, it sometimes requires
-complicated operation with a mouse, swipe and taps. Moreover, it's
-really hard to tell the operation to the others. We need a lot of
-screenshots to do that. Instead of that, there are a lot of CUI/CLI
-tools as alternatives. They are really simple but powerful and
-fast. In this session, audience can see the benefit of CUI/CLI
-tools. As a developer, GUI is really hard to make a fancy and modern
-design software. We actually have a lot of options not only GUI
-applications but also CUI/CLI applications.
+.. figlet:: Terminal CUI/CLI Software Again
 
+.. code:: yaml
 
-I really love CUI/CLI applications recently. Because it's fast,
-lightweight and can be operated with only a keyboard not mouse. In
-this talk, I'll give ...
+     Name     : Masayuki Igawa
+     Slide URL: https://github.com/masayukig/terminal-software-again
+     Date     : Sunday, March 25 2018
+
+.. Most of the people really like webUI and/or smartphone UI. We think
+   they are really fancy and cool. However, it sometimes requires
+   complicated operation with a mouse, swipe and taps. Moreover, it's
+   really hard to tell the operation to the others. We need a lot of
+   screenshots to do that. Instead of that, there are a lot of CUI/CLI
+   tools as alternatives. They are really simple but powerful and
+   fast. In this session, audience can see the benefit of CUI/CLI
+   tools. As a developer, GUI is really hard to make a fancy and modern
+   design software. We actually have a lot of options not only GUI
+   applications but also CUI/CLI applications.
+
+   I really love CUI/CLI applications recently. Because it's fast,
+   lightweight and can be operated with only a keyboard not mouse. In
+   this talk, I'll give ...
+
+DISCLAIMER
+==========
+
+| These slide are my own opinion.
 
 
 Who am I?
-+++++++++
+=========
+
+.. container:: progressive
+
+   * OpenStack Programmer
+   * SUSE
+   * Linux User
 
 What is the GUI/CUI/CLI application?
-++++++++++++++++++++++++++++++++++++
+====================================
 
 Pros/Cons GUI, CUI/CLI apps
-++++++++++++++++++++++++++++++++++++
+====================================
 
 Pain points of GUI application
-++++++++++++++++++++++++++++++++++++
+====================================
+
+.. container:: progressive
+
+   * Slow
+   * Complicated
+   * 
+
 
 benefits of CUI/CLI application
-++++++++++++++++++++++++++++++++++++
+====================================
+
+.. container:: progressive
+
+   * Fast
+
+     * Narrow bandwidth
+     * Poor computer
+   * Simple
+
+     * Easy to show how to use
+     * Less bugs(?)
+   * No mouse
+
+     * Keep the arms position
+     * Easy to show how to use
 
 What kind of applications do we use usually?
-++++++++++++++++++++++++++++++++++++++++++++
+============================================
 
-* Text Editors
+.. container:: progressive
 
-  * Vim/Emacs
+   * Text Editors
 
-* Mail
+     * Vim/Emacs
+   * Mail
 
-  * Mutt, Alpine
+     * Mutt, Alpine
+   * code review
 
-* code review
+     * gertty
+   * presentation
 
-  * gertty
+     * presentty
+   * Blog
 
-* presentation
+     * pelican
 
-  * presentty
+How to make it? - Useful libraries and commands
+===============================================
 
-* Blog
+* urwid: https://pypi.python.org/pypi/urwid
+* jp2a: https://github.com/cslarsen/jp2a
 
-  * pelican
+  * jp2a 1.0.8 works but not in 1.0.7..
+
+    .. code:: bash
+
+       $ git clone https://github.com/cslarsen/jp2a
+       $ autoreconf -vi
+       $ ./configure --with-jpeg-prefix=/usr/local \
+         --with-curl-config=`which curl-config`
+       $ make -j && make -j install
 
 Conclusion
-++++++++++
+==========
+
+.. container:: progressive
+
+   * CLI/CUI applications 
+
 
 Appendix
-++++++++
+========
 
 * Web browser
 
