@@ -42,18 +42,18 @@ Who am I?
 What is the GUI/CUI/CLI application?
 ====================================
 
-Pros/Cons GUI, CUI/CLI apps
-====================================
 
-Pain points of GUI application
+
+
+GUI Pros/Cons
 ====================================
 
 .. container:: progressive
 
+   * Easy to start to use
+   * Good for a graph dashboard
    * Slow
    * Complicated
-   * 
-
 
 benefits of CUI/CLI application
 ====================================
@@ -94,10 +94,27 @@ What kind of applications do we use usually?
 
      * pelican
 
+What kind of applications do we use usually? - cont.
+====================================================
+
+.. container:: progressive
+
+   * Automation
+
+     * Ansible
+     * Chef
+     * Puppet
+   * Virtualization
+
+     * Docker
+     * Kubernetes
+     * OpenStack
+
 How to make it? - Useful libraries and commands
 ===============================================
 
 * urwid: https://pypi.python.org/pypi/urwid
+* cliff: https://pypi.python.org/pypi/cliff
 * jp2a: https://github.com/cslarsen/jp2a
 
   * jp2a 1.0.8 works but not in 1.0.7..
