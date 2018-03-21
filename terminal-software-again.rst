@@ -84,7 +84,7 @@ What kind of applications do we use usually?
    * Mail
 
      * Mutt, Alpine
-   * code review
+   * Code review
 
      * gertty
    * presentation
