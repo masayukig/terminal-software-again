@@ -1,7 +1,7 @@
 FOSSAsia Summit 2018
 ====================
 
-.. figlet:: Terminal CUI/CLI Software Again
+.. figlet:: CUI/CLI Software Again
 
 .. code:: yaml
 
@@ -55,7 +55,7 @@ GUI Pros/Cons
    * Slow
    * Complicated
 
-benefits of CUI/CLI application
+Benefits of CUI/CLI application
 ====================================
 
 .. container:: progressive
@@ -64,14 +64,14 @@ benefits of CUI/CLI application
 
      * Narrow bandwidth
      * Poor computer
+     * No mouse
+
+       * Keep the arms position
+       * Easy to show how to use
    * Simple
 
      * Easy to show how to use
      * Less bugs(?)
-   * No mouse
-
-     * Keep the arms position
-     * Easy to show how to use
 
 What kind of applications do we use usually?
 ============================================
@@ -132,8 +132,9 @@ Conclusion
 
 .. container:: progressive
 
-   * CLI/CUI applications 
-
+   * CLI/CUI applications should be Fast, Simple, Easy to use
+   * Graphs, Images are should be on GUI applications
+   * Making CLI/CUI application is fun!
 
 Appendix
 ========
