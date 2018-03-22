@@ -142,16 +142,15 @@ Appendix
 * Web browser
 
   * Lynx, w3m, curl, wget
-
 * bug management
 
   * boartty
-
 * IoT
 
   * mqtty
-
 * Games
 
   * ....? :-p
+* Similar talk
 
+  * https://www.youtube.com/watch?v=3O60E9CpyJA
