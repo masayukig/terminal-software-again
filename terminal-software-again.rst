@@ -30,48 +30,34 @@ DISCLAIMER
 | These slide are my own opinion.
 
 
+Agenda
+======
+
+* Who am I?
+* What is this talk?
+* GUI/CUI/CLI apps examples, Pros/Cons
+* Useful libraries
+* Conclusion
+
 Who am I?
 =========
 
 .. container:: progressive
 
-   * OpenStack Programmer
+   * Open Source Programmer (mostly OpenStack)
    * SUSE
    * Linux User
 
-What is the GUI/CUI/CLI application?
-====================================
+What is this talk, BTW?
+=======================
 
+* I like CUI/CLI applications!
 
+  * There are a lot of benefits of CUI/CLI apps
+  * CUI/CLI apps aren't scary.
+  * But I also like GUI ones :)
 
-
-GUI Pros/Cons
-====================================
-
-.. container:: progressive
-
-   * Easy to start to use
-   * Good for a graph dashboard
-   * Slow
-   * Complicated
-
-Benefits of CUI/CLI application
-====================================
-
-.. container:: progressive
-
-   * Fast
-
-     * Narrow bandwidth
-     * Poor computer
-     * No mouse
-
-       * Keep the arms position
-       * Easy to show how to use
-   * Simple
-
-     * Easy to show how to use
-     * Less bugs(?)
+* Some examples of CUI/CLI/GUI applications
 
 What kind of applications do we use usually?
 ============================================
@@ -81,18 +67,23 @@ What kind of applications do we use usually?
    * Text Editors
 
      * Vim/Emacs
+     * Atom, Eclipse, PyCharm
    * Mail
 
      * Mutt, Alpine
+     * Thunderbird
    * Code review
 
-     * gertty
+     * gertty (see demo)
+     * GitHub, Gerrit
    * presentation
 
-     * presentty
+     * TeX, presentty (This!)
+     * Impress(LibreOffice)
    * Blog
 
      * pelican
+     * WordPress
 
 What kind of applications do we use usually? - cont.
 ====================================================
@@ -101,14 +92,49 @@ What kind of applications do we use usually? - cont.
 
    * Automation
 
-     * Ansible
-     * Chef
-     * Puppet
+     * Ansible, Chef, Puppet
+     * Jenkins
+     * Imagine, if Ansible has only GUI? Selenium/Web Scraping = Nightmare?
    * Virtualization
 
-     * Docker
-     * Kubernetes
-     * OpenStack
+     * Docker, Kubernetes, OpenStack
+
+   .. code::
+
+      -> CLI(not CUI) applications are good for automation
+
+
+GUI Pros/Cons
+====================================
+
+.. container:: progressive
+
+   * :) Easy to start to use (e.g. Scratch)
+   * :) Good for a graph dashboard
+   * :( Slow (sometimes)
+   * :( Complicated UI, bad for automation (e.g. Click here, there...)
+
+CUI/CLI Pros/Cons
+===============================
+
+.. container:: progressive
+
+   * :) Fast
+
+     * Narrow bandwidth
+     * Poor computer
+     * No mouse needed (can be used)
+
+       * Keep the arms position
+       * Easy to show how to use
+   * :) Simple
+
+     * Easy to show how to use
+     * Less bugs(?)
+
+   * :( Difficult to start to use
+   * :( Difficult to show graphs and/or images
+
 
 How to make it? - Useful libraries and commands
 ===============================================
@@ -127,12 +153,16 @@ How to make it? - Useful libraries and commands
          --with-curl-config=`which curl-config`
        $ make -j && make -j install
 
+* figlet: http://www.figlet.org/
+
+
 Conclusion
 ==========
 
 .. container:: progressive
 
-   * CLI/CUI applications should be Fast, Simple, Easy to use
+   * CLI/CUI apps are NOT scary, but there is a learning curve
+   * CLI/CUI apps should be Fast, Simple, Easy to use
    * Graphs, Images are should be on GUI applications
    * Making CLI/CUI application is fun!
 
