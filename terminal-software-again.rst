@@ -68,10 +68,10 @@ What kind of applications do we use usually?
 
      * Vim/Emacs
      * Atom, Eclipse, PyCharm
-   * Mail
+   * Mail/Chat
 
-     * Mutt, Alpine
-     * Thunderbird
+     * Mutt, Alpine, WeeChat
+     * Thunderbird, XChat
    * Code review
 
      * gertty (see demo)
@@ -112,7 +112,10 @@ GUI Pros/Cons
    * :) Easy to start to use (e.g. Scratch)
    * :) Good for a graph dashboard
    * :( Slow (sometimes)
-   * :( Complicated UI, bad for automation (e.g. Click here, there...)
+   * :( Complicated
+
+     * Library dependency, UI, bad for automation (e.g. Click here, there...)
+
 
 CUI/CLI Pros/Cons
 ===============================
@@ -131,6 +134,7 @@ CUI/CLI Pros/Cons
 
      * Easy to show how to use
      * Less bugs(?)
+     * Library dependency
 
    * :( Difficult to start to use
    * :( Difficult to show graphs and/or images
