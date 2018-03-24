@@ -82,7 +82,7 @@ What kind of applications do we use usually?
    * Code review
 
      * gertty (see demo)
-     * GitHub, Gerrit
+     * GitLab, Gerrit
    * presentation
 
      * TeX, presentty (This!)
@@ -91,6 +91,7 @@ What kind of applications do we use usually?
 
      * pelican
      * WordPress
+
 
 What kind of applications do we use usually? - cont.
 ====================================================
@@ -151,6 +152,7 @@ How to make it? - Useful libraries and commands
 
 * urwid: https://pypi.python.org/pypi/urwid (console user interface library for Python)
 * cliff: https://pypi.python.org/pypi/cliff (framework for building command line programs)
+* figlet: http://www.figlet.org/ (making large letters out of ordinary text)
 * jp2a: https://github.com/cslarsen/jp2a (simple JPEG to ASCII converter)
 
   * jp2a 1.0.8 works but not in 1.0.7..
@@ -163,7 +165,6 @@ How to make it? - Useful libraries and commands
          --with-curl-config=`which curl-config`
        $ make -j && make -j install
 
-* figlet: http://www.figlet.org/ (making large letters out of ordinary text)
 
 .. handout:: Show quick demos if we have the time.
 
