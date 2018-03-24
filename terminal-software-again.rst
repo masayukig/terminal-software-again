@@ -5,9 +5,9 @@ FOSSAsia Summit 2018
 
 .. code:: yaml
 
-     Name     : Masayuki Igawa
+     Name     : Masayuki Igawa (Twitter/GitHub/freenode: masayukig)
      Slide URL: https://github.com/masayukig/terminal-software-again
-     Date     : Sunday, March 25 2018
+     Date     : 13:50-14:09, Sunday, March 25 2018
 
 .. Most of the people really like webUI and/or smartphone UI. We think
    they are really fancy and cool. However, it sometimes requires
@@ -58,6 +58,13 @@ What is this talk, BTW?
   * But I also like GUI ones :)
 
 * Some examples of CUI/CLI/GUI applications
+
+
+Question
+========
+
+* Do you prefer using CUI/CLI apps to GUI (or just **apps** :) ones?
+
 
 What kind of applications do we use usually?
 ============================================
@@ -133,7 +140,6 @@ CUI/CLI Pros/Cons
    * :) Simple
 
      * Easy to show how to use
-     * Less bugs(?)
      * Library dependency
 
    * :( Difficult to start to use
@@ -143,9 +149,9 @@ CUI/CLI Pros/Cons
 How to make it? - Useful libraries and commands
 ===============================================
 
-* urwid: https://pypi.python.org/pypi/urwid
-* cliff: https://pypi.python.org/pypi/cliff
-* jp2a: https://github.com/cslarsen/jp2a
+* urwid: https://pypi.python.org/pypi/urwid (console user interface library for Python)
+* cliff: https://pypi.python.org/pypi/cliff (framework for building command line programs)
+* jp2a: https://github.com/cslarsen/jp2a (simple JPEG to ASCII converter)
 
   * jp2a 1.0.8 works but not in 1.0.7..
 
@@ -157,7 +163,9 @@ How to make it? - Useful libraries and commands
          --with-curl-config=`which curl-config`
        $ make -j && make -j install
 
-* figlet: http://www.figlet.org/
+* figlet: http://www.figlet.org/ (making large letters out of ordinary text)
+
+.. handout:: Show quick demos if we have the time.
 
 
 Conclusion
@@ -167,8 +175,10 @@ Conclusion
 
    * CLI/CUI apps are NOT scary, but there is a learning curve
    * CLI/CUI apps should be Fast, Simple, Easy to use
-   * Graphs, Images are should be on GUI applications
-   * Making CLI/CUI application is fun!
+   * CLI apps are very useful for automation
+   * Graphs, Images might be better on GUI applications
+   * Making CLI/CUI application is (also) fun! and good for starting point
+
 
 Appendix
 ========
