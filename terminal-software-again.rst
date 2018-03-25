@@ -29,7 +29,7 @@ FOSSAsia Summit 2018
 DISCLAIMER
 ==========
 
-| These slide are my own opinion.
+.. cowsay:: These slide are my own opinion.
 
 
 Agenda
@@ -47,6 +47,8 @@ Who am I?
 .. container:: progressive
 
    * Open Source Programmer (mostly OpenStack)
+
+     * Quarity Assurance (Tempest, stestr..)
    * Working at SUSE
    * Linux User
 
@@ -64,8 +66,8 @@ GUI, TUI, CUI, CLI?
 
 
 
-What is this talk, BTW?
-=======================
+What is this talk?
+==================
 
 * I like TUI/CLI applications!
 
@@ -76,8 +78,8 @@ What is this talk, BTW?
 * Some examples of TUI/CLI/GUI applications
 
 
-Question
-========
+By the way
+==========
 
 .. container:: progressive
 
