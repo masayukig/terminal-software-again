@@ -1,7 +1,7 @@
 FOSSAsia Summit 2018
 ====================
 
-.. figlet:: CUI/CLI Software Again
+.. figlet:: TUI/CLI Software Again
 
 .. code:: yaml
 
@@ -9,7 +9,9 @@ FOSSAsia Summit 2018
      Slide URL: https://github.com/masayukig/terminal-software-again
      Date     : 13:50-14:09, Sunday, March 25 2018
 
-.. Most of the people really like webUI and/or smartphone UI. We think
+.. container:: handout
+
+   Most of the people really like webUI and/or smartphone UI. We think
    they are really fancy and cool. However, it sometimes requires
    complicated operation with a mouse, swipe and taps. Moreover, it's
    really hard to tell the operation to the others. We need a lot of
@@ -45,25 +47,42 @@ Who am I?
 .. container:: progressive
 
    * Open Source Programmer (mostly OpenStack)
-   * SUSE
+   * Working at SUSE
    * Linux User
+
+TUI, CUI, CLI, GUI?
+===================
+
+* TUI: Text-based User Interface
+
+  * Vim, Emacs, Mutt, Gertty, presentty, etc..
+* CLI: Command-Line interface, CUI: Character-based User Interface
+
+  * CLI and CUI are same. Sometimes, it's confusing with TUI.
+
+* GUI: Graphical User Interface
+
 
 What is this talk, BTW?
 =======================
 
-* I like CUI/CLI applications!
+* I like TUI/CLI applications!
 
-  * There are a lot of benefits of CUI/CLI apps
-  * CUI/CLI apps aren't scary.
+  * There are a lot of benefits of TUI/CLI apps
+  * TUI/CLI apps aren't scary.
   * But I also like GUI ones :)
 
-* Some examples of CUI/CLI/GUI applications
+* Some examples of TUI/CLI/GUI applications
 
 
 Question
 ========
 
-* Do you prefer using CUI/CLI apps to GUI (or just **apps** :) ones?
+.. container:: progressive
+
+   * Do you prefer using TUI/CLI apps to GUI (or just **apps** :)
+     ones?
+   * The answer could be "It depends"..
 
 
 What kind of applications do we use usually?
@@ -109,7 +128,7 @@ What kind of applications do we use usually? - cont.
 
    .. code::
 
-      -> CLI(not CUI) applications are good for automation
+      -> CLI(not TUI) applications are good for automation
 
 
 GUI Pros/Cons
@@ -125,7 +144,7 @@ GUI Pros/Cons
      * Library dependency, UI, bad for automation (e.g. Click here, there...)
 
 
-CUI/CLI Pros/Cons
+TUI/CLI Pros/Cons
 ===============================
 
 .. container:: progressive
@@ -159,10 +178,11 @@ How to make it? - Useful libraries and commands
 
     .. code:: bash
 
+       $ sudo zypper install libjpeg8-devel automake
        $ git clone https://github.com/cslarsen/jp2a
        $ autoreconf -vi
        $ ./configure --with-jpeg-prefix=/usr/local \
-         --with-curl-config=`which curl-config`
+         --with-curl-config=`which curl-config` --enable-curl
        $ make -j && make -j install
 
 
@@ -174,11 +194,13 @@ Conclusion
 
 .. container:: progressive
 
-   * CLI/CUI apps are NOT scary, but there is a learning curve
-   * CLI/CUI apps should be Fast, Simple, Easy to use
+   * CLI/TUI apps are NOT scary, but there is a learning curve
+   * CLI/TUI apps should be Fast, Simple, Easy to use
    * CLI apps are very useful for automation
    * Graphs, Images might be better on GUI applications
-   * Making CLI/CUI application is (also) fun! and good for starting point
+   * Making CLI/TUI application is (also) fun! and good for starting point
+
+     * Not only just using it, but also making feedbacks
 
 
 Appendix
