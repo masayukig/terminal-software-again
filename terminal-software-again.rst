@@ -37,7 +37,7 @@ Agenda
 
 * Who am I?
 * What is this talk?
-* GUI/CUI/CLI apps examples, Pros/Cons
+* GUI/TUI/CUI/CLI apps examples, Pros/Cons
 * Useful libraries
 * Conclusion
 
@@ -50,8 +50,10 @@ Who am I?
    * Working at SUSE
    * Linux User
 
-TUI, CUI, CLI, GUI?
+GUI, TUI, CUI, CLI?
 ===================
+
+* GUI: Graphical User Interface
 
 * TUI: Text-based User Interface
 
@@ -60,7 +62,6 @@ TUI, CUI, CLI, GUI?
 
   * CLI and CUI are same. Sometimes, it's confusing with TUI.
 
-* GUI: Graphical User Interface
 
 
 What is this talk, BTW?
