@@ -64,8 +64,6 @@ GUI, TUI, CUI, CLI?
 
   * CLI and CUI are same. Sometimes, it's confusing with TUI.
 
-
-
 What is this talk?
 ==================
 
